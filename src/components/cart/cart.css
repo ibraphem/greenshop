@@ -1,0 +1,14 @@
+.cart_banner {
+  width: 100%;
+
+  opacity: 0.7;
+}
+
+.cart_image {
+  width: 100%;
+  max-width: 100px;
+  height: auto;
+  display: block;
+
+  border-radius: 5px;
+}
