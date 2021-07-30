@@ -143,7 +143,7 @@ const ProductCard = ({ product }) => {
             <AddShoppingCartIcon />
           </IconButton>
         </Tooltip>
-        <Tooltip title="view product">
+   {/*     <Tooltip title="view product">
           <Link
             to={{
               pathname: `/${product.category}/${product.name}`,
@@ -163,9 +163,9 @@ const ProductCard = ({ product }) => {
           >
             <IconButton aria-label="view product">
               <VisibilityIcon />
-            </IconButton>
+            </IconButton> 
           </Link>
-        </Tooltip>
+        </Tooltip> */}
       </CardActions>
     </Card>
   );
